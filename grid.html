@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        
+        .grod{
+            background-color: #f3f3f3;
+            padding:1.6rem;
+            border:forestgreen 1px dotted;
+            text-align: center;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+        }
+        main{
+            display:grid;
+            grid-template-columns: 2fr 1fr;
+        }
+       
+        .item
+        {
+            background-color: gold;
+            padding:1.6rem;
+            text-align: center;
+            border:1px black dotted;
+        }
+        .footer{
+            display: grid;
+            grid-template-rows: 1fr,2fr,3fr;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <div class="grid">
+        <div class="grod">item1 1</div>
+        <div class="grod">item1 2</div>
+        <div class="grod">item1 3</div>
+        <div class="grod">item1 4</div>
+        <div class="grod">item1 5</div>
+        <div class="grod">item1 6</div>
+        <div class="grod">item1 7</div>
+        <div class="grod">item1 8</div>
+        <div class="grod">item1 9</div>
+    </div>
+    <main>
+        <section>
+            <h1>Hello</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, inventore!</p>
+        </section>
+        <aside>
+            <h1>Side</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, excepturi?</p>
+        </aside>
+    </main>
+    <footer class="footer">
+    <div class="item">item1 1</div>
+    <div class="item">item1 2</div>
+    <div class="item">item1 3</div>
+    <div class="item">item1 4</div>
+    <div class="item">item1 5</div>
+    <div class="item">item1 6</div>
+    <div class="item">item1 7</div>
+    <div class="item">item1 8</div>
+    <div class="item">item1 9</div>
+    <div class="item">item1 10</div>
+    </footer>
+    </body>
+</body>
+</html>
